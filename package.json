@@ -4,12 +4,30 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch menu.json"
+    "start": "json-server --watch menu.json",
+    "run-all": "npm-run-all --parallel server file"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "json-server": "^1.0.0-beta.3"
-  }
+    "axios": "^1.8.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "json-server": "^1.0.0-beta.3",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migue-dev-full/App-restaurant-V1.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/migue-dev-full/App-restaurant-V1/issues"
+  },
+  "homepage": "https://github.com/migue-dev-full/App-restaurant-V1#readme",
+  "description": ""
 }
